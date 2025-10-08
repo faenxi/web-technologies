@@ -1,0 +1,36 @@
+.menu__link {
+    color: purple;
+}
+
+.menu__link--main {
+    color: green;
+}
+
+.menu__list--berries {
+    list-style-type: square;
+}
+
+.menu__link--no-underline {
+    text-decoration: none;
+}
+
+.menu__list--vegetables {
+    list-style-image: url("li.svg");
+}
+
+.menu__link--other {
+    text-decoration: none;
+    color: black;
+}
+
+.menu__list--numbered {
+    list-style-position: inside;
+    margin-left: 25px;
+    padding-left: 0;
+}
+
+.menu__list--nested {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 10px;
+}

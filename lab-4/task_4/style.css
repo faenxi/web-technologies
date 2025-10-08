@@ -1,0 +1,48 @@
+.text-background__span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-background__span--highlight {
+    background-color: yellow;
+}
+
+.span--nested {
+    background-color: #666464;
+    text-decoration: line-through;
+}
+
+.list__nested-span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.section__paragraph {
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.813);
+    text-indent: 50px;
+}
+
+.list__nested {
+    list-style-image: url("li.svg");
+}
+
+.paragraph__text-background {
+    word-spacing: 50px;
+}
+
+.text-bold__paragraph {
+    font-weight: bold;
+}
+
+.text-bold-adjacent__paragraph {
+    line-height: 45px;
+}
+
+.image-adjacent__paragraph {
+    background-color: #911D00;
+}
+
+.section-sibling__paragraph {
+    color: red;
+}
