@@ -27,7 +27,7 @@
 .trip-plan__stage-title {
   display: inline-block;
   background-color: rgb(218, 106, 32);
-  padding: 10px 20px 10px 45px; /* додано відступ зліва під іконку */
+  padding: 10px 20px 10px 45px; 
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -37,13 +37,13 @@
   background-size: 25px;
 }
 
-/* Іконки для назв етапів */
+
 .trip-plan__stage-title--prep {
-  background-image: url("icons/rule.png"); /* заміни на відповідну іконку */
+  background-image: url("icons/rule.png"); 
 }
 
 .trip-plan__stage-title--rest {
-  background-image: url("icons/rule.png"); /* заміни на відповідну іконку */
+  background-image: url("icons/rule.png"); 
 }
 
 .trip-plan__list {
@@ -64,7 +64,7 @@
   background-size: 25px;
 }
 
-/* Іконки для пунктів */
+
 .trip-plan__item--route    { background-image: url("icons/ad_units.png"); }
 .trip-plan__item--ticket   { background-image: url("icons/airplane_ticket.png"); }
 .trip-plan__item--hotel    { background-image: url("icons/hotel.png"); }
