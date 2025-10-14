@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Стилі для заголовків стовпців */
+thead th {
+  padding: 15px;
+  font-weight: bold;
+  color: white; /* Білий колір тексту */
+  border: 1px solid white;
+}
+
+thead th:first-child {
+  background-color: #f7eaea; /* Світліший колір для першого заголовка */
+  color: rgb(255, 255, 255); /* Чорний колір тексту */
+}
+
+thead th:nth-child(2) { background-color: #d38d8d; }
+thead th:nth-child(3) { background-color: #a86c6c; }
+thead th:nth-child(4) { background-color: #8b3b3b; }
+thead th:nth-child(5) { background-color: #632d2d; }
+
+/* Стилі для першого стовпця */
+tbody td:first-child {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+  background-color: #a86c6c; /* Темніший колір */
+  color: white; /* Білий колір тексту */
+  border: 1px solid white;
+}
+
+/* Кольорова черга для РЯДКІВ */
+tbody tr:nth-child(odd) {
+  background-color: #e9bfbf; /* Темніший відтінок для непарних рядків */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f4dcdc; /* Світліший відтінок для парних рядків */
+}
+
+/* Загальні стилі для комірок таблиці */
+tbody td {
+  padding: 15px;
+  border: 1px solid white;
+}
