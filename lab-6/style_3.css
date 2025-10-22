@@ -50,6 +50,7 @@ li a {
     background-color: darkred;
     border-radius: 60px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .description-block {
@@ -58,6 +59,7 @@ li a {
     border-radius: 60px;
     padding: 20px;
     overflow: hidden;
+    text-align: justify;
 }
 
 .description-sub-container {
@@ -72,13 +74,12 @@ li a {
     background-color: red;
     padding: 20px;
     border-radius: 60px;
-    width: 45%; /* Зменшимо ширину */
+    width: 45%;
     float: left;
     box-sizing: border-box;
-    margin: 0 2.5%; /* Додамо відступи з обох сторін */
+    margin: 0 2.5%;
 }
 
-/* Clearfix */
 .description-sub-container::after {
     content: "";
     display: table;
